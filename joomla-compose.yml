@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  joomla:
+    image: joomla
+    restart: always
+    links:
+      - joomladb:mysql
+    ports:
+      - "8080:80"
+    volumes:
+      - "../:/var/www/html"
+    environment:
+      JOOMLA_DB_HOST: joomladb
+      JOOMLA_DB_PASSWORD: secret
+
+  joomladb:
+    image: mysql:5.7
+    ports:
+      - 3306
+    restart: always
+    volumes:
+      - "./data:/var/lib/mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
