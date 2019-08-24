@@ -1,0 +1,40 @@
+Test 1: Please setup and demonstrate docker environment for software development.
+
+    Under Window environment (can setup under VM)
+    Under Unix/Linux environment (can setup under VM)
+    Demonstrate any application in both environment. (can be downloaded from repository)
+
+Purpose:
+
+    To get the candidate to familiarized in container based development environment. Application images, image repository etc,
+    To familiarized some of docker command.
+
+ 
+
+Test 2. Please setup Openshift 4.1 system.
+
+    To create linux based VM
+    To setup complete basic Openshift 4.1 system. (minimal setup)
+
+Purpose:
+
+    To familiarize the candidate to linux operating system installation and setup.
+    To familiarize candidate to Openshift environment.
+    To get the candidate to be self-motivated, commitment and self-learning.
+    To familiarized candidate with Openshift basic technology, architecture, components etc)
+
+ 
+
+*Note
+
+- Use opensource software packages. (i.e centos, virtual box, vmware, Openshift packages).
+
+- There are step by step setup available in the internet. (os, openshift etc)
+
+- As for Openshift setup, please setup very basic installation and demonstrate. (i.e. single VM or multiple and minimal configuration – which one is simple).
+
+- Candidate must have the notebook or desktop at home. The VM images can be copied to the evaluator for demo or demo it using notebook.
+
+- Produce step by step setup. (can copy the guide from internet or during configuration setup in text or word files)
+
+- The faster setup the better. 
